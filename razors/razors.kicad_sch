@@ -1993,266 +1993,6 @@
 				)
 			)
 		)
-		(symbol "eurorack-connectors:Thonkiconn-Jack"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "eurorack-jacks:Thonkiconn-Jack"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Thonkiconn-Jack_1_0"
-				(polyline
-					(pts
-						(xy -5.586 -2.794) (xy -5.586 2.794)
-					)
-					(stroke
-						(width 0.333)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.586 2.794) (xy -4.57 2.794)
-					)
-					(stroke
-						(width 0.333)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.57 -2.794) (xy -5.586 -2.794)
-					)
-					(stroke
-						(width 0.333)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.57 2.794) (xy -4.57 -2.794)
-					)
-					(stroke
-						(width 0.333)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 1.016) (xy -2.286 1.778)
-					)
-					(stroke
-						(width 0.152)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy -1.524 1.016)
-					)
-					(stroke
-						(width 0.152)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.524) (xy 0.762 2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0) (xy 0.762 2.286)
-					)
-					(stroke
-						(width 0.152)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 1.016 1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.524) (xy 0.508 1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy -4.572 -2.54)
-					)
-					(stroke
-						(width 0.152)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0.152)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 0 2.54)
-					)
-					(stroke
-						(width 0.152)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers hide)
@@ -2565,6 +2305,266 @@
 				)
 			)
 		)
+		(symbol "rhinocerose-connectors:Thonkiconn-Jack"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "rhinocerose-jacks:Thonkiconn-Jack"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Thonkiconn-Jack_1_0"
+				(polyline
+					(pts
+						(xy -5.586 -2.794) (xy -5.586 2.794)
+					)
+					(stroke
+						(width 0.333)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.586 2.794) (xy -4.57 2.794)
+					)
+					(stroke
+						(width 0.333)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.57 -2.794) (xy -5.586 -2.794)
+					)
+					(stroke
+						(width 0.333)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.57 2.794) (xy -4.57 -2.794)
+					)
+					(stroke
+						(width 0.333)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 1.016) (xy -2.286 1.778)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -1.524 1.016)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.524) (xy 0.762 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 0.762 2.286)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 1.016 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.524) (xy 0.508 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy -4.572 -2.54)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 104.14 52.07)
@@ -2717,6 +2717,12 @@
 		(uuid "c22c4baf-a9dc-45c2-b117-8f7c00266010")
 	)
 	(junction
+		(at 257.81 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3f42136-0cdf-40d5-b528-7ba267ce60dd")
+	)
+	(junction
 		(at 193.04 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2733,6 +2739,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ceaab080-5635-4760-ba77-c98a5e967386")
+	)
+	(junction
+		(at 257.81 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcff29e7-6190-4777-bcc8-392340d24105")
 	)
 	(junction
 		(at 91.44 50.8)
@@ -2937,6 +2949,16 @@
 			(type default)
 		)
 		(uuid "26e8103f-aeb2-4580-8201-b2d56a805800")
+	)
+	(wire
+		(pts
+			(xy 257.81 26.67) (xy 264.16 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2742b1b3-e62d-43a4-8e3a-82f2a70f7b1d")
 	)
 	(wire
 		(pts
@@ -3320,6 +3342,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 26.67) (xy 257.81 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e8511ae-9be7-498b-aee6-49369324667a")
+	)
+	(wire
+		(pts
 			(xy 104.14 52.07) (xy 106.68 52.07)
 		)
 		(stroke
@@ -3387,6 +3419,16 @@
 			(type default)
 		)
 		(uuid "87a89fe7-1392-40b7-a8ae-db51999a2d6c")
+	)
+	(wire
+		(pts
+			(xy 257.81 57.15) (xy 257.81 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8adb8b34-e1ff-40c8-a3a1-82558330739a")
 	)
 	(wire
 		(pts
@@ -3497,6 +3539,16 @@
 			(type default)
 		)
 		(uuid "9ec7255b-8171-49e6-9f56-e2372c533676")
+	)
+	(wire
+		(pts
+			(xy 257.81 57.15) (xy 262.89 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3ab0af8-2beb-414d-bd21-887d141f70a6")
 	)
 	(wire
 		(pts
@@ -4357,7 +4409,7 @@
 		)
 	)
 	(symbol
-		(lib_id "eurorack-connectors:Thonkiconn-Jack")
+		(lib_id "rhinocerose-connectors:Thonkiconn-Jack")
 		(at 76.2 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4382,7 +4434,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eurorack-jacks:Thonkiconn-Jack"
+		(property "Footprint" "rhinocerose-jacks:Thonkiconn-Jack"
 			(at 76.2 73.66 0)
 			(effects
 				(font
@@ -4781,6 +4833,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 262.89 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d0ac124-f17a-4e87-98e6-0c211001645f")
+		(property "Reference" "#PWR033"
+			(at 262.89 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 262.89 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 262.89 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89dbc670-ce78-4fa1-848f-79509b491758")
+		)
+		(instances
+			(project "razors"
+				(path "/abfdb5c1-eddc-41fd-82f6-ba7940b11c28"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 196.85 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4913,6 +5031,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 264.16 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25d60785-7c5d-475f-8f6a-c18834f2dc70")
+		(property "Reference" "#PWR032"
+			(at 264.16 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 264.16 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 264.16 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "701841b7-1d71-49c9-a6e7-35178fb5efc4")
+		)
+		(instances
+			(project "razors"
+				(path "/abfdb5c1-eddc-41fd-82f6-ba7940b11c28"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:-12V")
 		(at 259.08 110.49 180)
 		(unit 1)
@@ -4979,7 +5163,7 @@
 		)
 	)
 	(symbol
-		(lib_id "eurorack-connectors:Thonkiconn-Jack")
+		(lib_id "rhinocerose-connectors:Thonkiconn-Jack")
 		(at 217.17 139.7 0)
 		(mirror y)
 		(unit 1)
@@ -4990,22 +5174,24 @@
 		(fields_autoplaced yes)
 		(uuid "2bde0552-fb08-4e7f-b765-82287edec147")
 		(property "Reference" "J5"
-			(at 218.7383 133.35 0)
+			(at 224.79 139.0649 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "~"
-			(at 218.7383 134.62 0)
+			(at 224.79 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "eurorack-jacks:Thonkiconn-Jack"
+		(property "Footprint" "rhinocerose-jacks:Thonkiconn-Jack"
 			(at 217.17 144.78 0)
 			(effects
 				(font
@@ -5519,7 +5705,7 @@
 		)
 	)
 	(symbol
-		(lib_id "eurorack-connectors:Thonkiconn-Jack")
+		(lib_id "rhinocerose-connectors:Thonkiconn-Jack")
 		(at 76.2 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5544,7 +5730,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eurorack-jacks:Thonkiconn-Jack"
+		(property "Footprint" "rhinocerose-jacks:Thonkiconn-Jack"
 			(at 76.2 147.32 0)
 			(effects
 				(font
@@ -5724,7 +5910,7 @@
 		)
 	)
 	(symbol
-		(lib_id "eurorack-connectors:Thonkiconn-Jack")
+		(lib_id "rhinocerose-connectors:Thonkiconn-Jack")
 		(at 52.07 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5749,7 +5935,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eurorack-jacks:Thonkiconn-Jack"
+		(property "Footprint" "rhinocerose-jacks:Thonkiconn-Jack"
 			(at 52.07 105.41 0)
 			(effects
 				(font
@@ -6696,7 +6882,7 @@
 		)
 	)
 	(symbol
-		(lib_id "eurorack-connectors:Thonkiconn-Jack")
+		(lib_id "rhinocerose-connectors:Thonkiconn-Jack")
 		(at 41.91 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6721,7 +6907,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eurorack-jacks:Thonkiconn-Jack"
+		(property "Footprint" "rhinocerose-jacks:Thonkiconn-Jack"
 			(at 41.91 36.83 0)
 			(effects
 				(font
@@ -7521,46 +7707,46 @@
 			)
 		)
 		(pin "11"
-			(uuid "640cedbd-a34f-4284-a517-685fb8352883")
+			(uuid "640cedbd-a34f-4284-a517-685fb8352884")
 		)
 		(pin "12"
-			(uuid "53b99cd7-9b31-4077-9b97-941b727090c3")
+			(uuid "53b99cd7-9b31-4077-9b97-941b727090c4")
 		)
 		(pin "2"
-			(uuid "e02acdae-8ced-4f40-8c0a-a17029dcff8f")
+			(uuid "e02acdae-8ced-4f40-8c0a-a17029dcff90")
 		)
 		(pin "5"
-			(uuid "cdea779a-2ffb-4692-9480-4ec67b128f6c")
+			(uuid "cdea779a-2ffb-4692-9480-4ec67b128f6d")
 		)
 		(pin "4"
-			(uuid "221ec4c7-3880-4c34-b700-7ff0de947c67")
+			(uuid "221ec4c7-3880-4c34-b700-7ff0de947c68")
 		)
 		(pin "6"
-			(uuid "89120486-58d0-49e3-b7b0-16c1588e4373")
+			(uuid "89120486-58d0-49e3-b7b0-16c1588e4374")
 		)
 		(pin "3"
-			(uuid "046844a9-718a-4133-bf17-066c0650028a")
+			(uuid "046844a9-718a-4133-bf17-066c0650028b")
 		)
 		(pin "7"
-			(uuid "0c086b72-a33e-482f-8c06-40f702e1097e")
+			(uuid "0c086b72-a33e-482f-8c06-40f702e1097f")
 		)
 		(pin "8"
-			(uuid "bf385c91-2e66-4a38-95bd-4b9f0f6862f6")
+			(uuid "bf385c91-2e66-4a38-95bd-4b9f0f6862f7")
 		)
 		(pin "1"
-			(uuid "a6fa93a2-1a32-42b0-b935-536ff731bcb3")
+			(uuid "a6fa93a2-1a32-42b0-b935-536ff731bcb4")
 		)
 		(pin "10"
-			(uuid "a69fee3f-4ab1-4052-b8bd-d60cb071cd6f")
+			(uuid "a69fee3f-4ab1-4052-b8bd-d60cb071cd70")
 		)
 		(pin "9"
-			(uuid "19e0c16d-6740-488b-9a64-c7342bf177c2")
+			(uuid "19e0c16d-6740-488b-9a64-c7342bf177c3")
 		)
 		(pin "14"
-			(uuid "05bfe2a9-6c62-47a3-a0e0-ed79b6d79b55")
+			(uuid "05bfe2a9-6c62-47a3-a0e0-ed79b6d79b56")
 		)
 		(pin "13"
-			(uuid "c96e6311-d0ae-41e0-83d3-ce7341de4994")
+			(uuid "c96e6311-d0ae-41e0-83d3-ce7341de4995")
 		)
 		(instances
 			(project ""
@@ -7842,7 +8028,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 257.81 59.69 0)
+		(at 262.89 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7851,7 +8037,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f421da9-6aa9-4650-a69d-254b9ae70dfa")
 		(property "Reference" "C5"
-			(at 260.35 58.4262 0)
+			(at 265.43 58.4262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7860,7 +8046,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 260.35 60.9662 0)
+			(at 265.43 60.9662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7869,7 +8055,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 257.81 59.69 0)
+			(at 262.89 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7878,7 +8064,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 59.69 0)
+			(at 262.89 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7887,7 +8073,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 257.81 59.69 0)
+			(at 262.89 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8308,7 +8494,7 @@
 		)
 	)
 	(symbol
-		(lib_id "eurorack-connectors:Thonkiconn-Jack")
+		(lib_id "rhinocerose-connectors:Thonkiconn-Jack")
 		(at 220.98 63.5 0)
 		(mirror y)
 		(unit 1)
@@ -8319,22 +8505,24 @@
 		(fields_autoplaced yes)
 		(uuid "a1239047-592a-46b9-a902-b244150f4bea")
 		(property "Reference" "J6"
-			(at 222.5483 57.15 0)
+			(at 228.6 62.8649 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "~"
-			(at 222.5483 58.42 0)
+			(at 228.6 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "eurorack-jacks:Thonkiconn-Jack"
+		(property "Footprint" "rhinocerose-jacks:Thonkiconn-Jack"
 			(at 220.98 68.58 0)
 			(effects
 				(font
@@ -8514,7 +8702,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 257.81 29.21 0)
+		(at 264.16 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8523,7 +8711,7 @@
 		(fields_autoplaced yes)
 		(uuid "a34ea633-b704-4898-bdb9-cc9e6ee2751f")
 		(property "Reference" "C6"
-			(at 260.35 27.9462 0)
+			(at 266.7 27.9462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8532,7 +8720,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 260.35 30.4862 0)
+			(at 266.7 30.4862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8541,7 +8729,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 257.81 29.21 0)
+			(at 264.16 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8550,7 +8738,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 29.21 0)
+			(at 264.16 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8559,7 +8747,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 257.81 29.21 0)
+			(at 264.16 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8705,46 +8893,46 @@
 			)
 		)
 		(pin "11"
-			(uuid "640cedbd-a34f-4284-a517-685fb8352883")
+			(uuid "640cedbd-a34f-4284-a517-685fb8352885")
 		)
 		(pin "12"
-			(uuid "53b99cd7-9b31-4077-9b97-941b727090c3")
+			(uuid "53b99cd7-9b31-4077-9b97-941b727090c5")
 		)
 		(pin "2"
-			(uuid "e02acdae-8ced-4f40-8c0a-a17029dcff8f")
+			(uuid "e02acdae-8ced-4f40-8c0a-a17029dcff91")
 		)
 		(pin "5"
-			(uuid "cdea779a-2ffb-4692-9480-4ec67b128f6c")
+			(uuid "cdea779a-2ffb-4692-9480-4ec67b128f6e")
 		)
 		(pin "4"
-			(uuid "221ec4c7-3880-4c34-b700-7ff0de947c67")
+			(uuid "221ec4c7-3880-4c34-b700-7ff0de947c69")
 		)
 		(pin "6"
-			(uuid "89120486-58d0-49e3-b7b0-16c1588e4373")
+			(uuid "89120486-58d0-49e3-b7b0-16c1588e4375")
 		)
 		(pin "3"
-			(uuid "046844a9-718a-4133-bf17-066c0650028a")
+			(uuid "046844a9-718a-4133-bf17-066c0650028c")
 		)
 		(pin "7"
-			(uuid "0c086b72-a33e-482f-8c06-40f702e1097e")
+			(uuid "0c086b72-a33e-482f-8c06-40f702e10980")
 		)
 		(pin "8"
-			(uuid "bf385c91-2e66-4a38-95bd-4b9f0f6862f6")
+			(uuid "bf385c91-2e66-4a38-95bd-4b9f0f6862f8")
 		)
 		(pin "1"
-			(uuid "a6fa93a2-1a32-42b0-b935-536ff731bcb3")
+			(uuid "a6fa93a2-1a32-42b0-b935-536ff731bcb5")
 		)
 		(pin "10"
-			(uuid "a69fee3f-4ab1-4052-b8bd-d60cb071cd6f")
+			(uuid "a69fee3f-4ab1-4052-b8bd-d60cb071cd71")
 		)
 		(pin "9"
-			(uuid "19e0c16d-6740-488b-9a64-c7342bf177c2")
+			(uuid "19e0c16d-6740-488b-9a64-c7342bf177c4")
 		)
 		(pin "14"
-			(uuid "05bfe2a9-6c62-47a3-a0e0-ed79b6d79b55")
+			(uuid "05bfe2a9-6c62-47a3-a0e0-ed79b6d79b57")
 		)
 		(pin "13"
-			(uuid "c96e6311-d0ae-41e0-83d3-ce7341de4994")
+			(uuid "c96e6311-d0ae-41e0-83d3-ce7341de4996")
 		)
 		(instances
 			(project ""
@@ -9503,28 +9691,28 @@
 			)
 		)
 		(pin "3"
-			(uuid "f53be639-cd4e-4a40-92ee-0f8745a80901")
+			(uuid "f53be639-cd4e-4a40-92ee-0f8745a80902")
 		)
 		(pin "2"
-			(uuid "fec44c82-3205-4cee-8276-336ac6655e88")
+			(uuid "fec44c82-3205-4cee-8276-336ac6655e89")
 		)
 		(pin "4"
-			(uuid "7df87ca9-769d-4fbd-9190-961ab9444c39")
+			(uuid "7df87ca9-769d-4fbd-9190-961ab9444c3a")
 		)
 		(pin "8"
-			(uuid "31017728-c2d7-4c54-a529-268d96333280")
+			(uuid "31017728-c2d7-4c54-a529-268d96333281")
 		)
 		(pin "6"
-			(uuid "240d19c8-5eca-450d-9b17-56fac6efb262")
+			(uuid "240d19c8-5eca-450d-9b17-56fac6efb263")
 		)
 		(pin "7"
-			(uuid "8b1fde24-c8e3-42cc-aa76-4bf43f65ca07")
+			(uuid "8b1fde24-c8e3-42cc-aa76-4bf43f65ca08")
 		)
 		(pin "1"
-			(uuid "8aae7d81-8aeb-4571-877a-8baaf7e57e3f")
+			(uuid "8aae7d81-8aeb-4571-877a-8baaf7e57e40")
 		)
 		(pin "5"
-			(uuid "aea40a5e-09d6-42ac-83c6-569469fd294e")
+			(uuid "aea40a5e-09d6-42ac-83c6-569469fd294f")
 		)
 		(instances
 			(project ""
@@ -9659,46 +9847,46 @@
 			)
 		)
 		(pin "11"
-			(uuid "640cedbd-a34f-4284-a517-685fb8352883")
+			(uuid "640cedbd-a34f-4284-a517-685fb8352886")
 		)
 		(pin "12"
-			(uuid "53b99cd7-9b31-4077-9b97-941b727090c3")
+			(uuid "53b99cd7-9b31-4077-9b97-941b727090c6")
 		)
 		(pin "2"
-			(uuid "e02acdae-8ced-4f40-8c0a-a17029dcff8f")
+			(uuid "e02acdae-8ced-4f40-8c0a-a17029dcff92")
 		)
 		(pin "5"
-			(uuid "cdea779a-2ffb-4692-9480-4ec67b128f6c")
+			(uuid "cdea779a-2ffb-4692-9480-4ec67b128f6f")
 		)
 		(pin "4"
-			(uuid "221ec4c7-3880-4c34-b700-7ff0de947c67")
+			(uuid "221ec4c7-3880-4c34-b700-7ff0de947c6a")
 		)
 		(pin "6"
-			(uuid "89120486-58d0-49e3-b7b0-16c1588e4373")
+			(uuid "89120486-58d0-49e3-b7b0-16c1588e4376")
 		)
 		(pin "3"
-			(uuid "046844a9-718a-4133-bf17-066c0650028a")
+			(uuid "046844a9-718a-4133-bf17-066c0650028d")
 		)
 		(pin "7"
-			(uuid "0c086b72-a33e-482f-8c06-40f702e1097e")
+			(uuid "0c086b72-a33e-482f-8c06-40f702e10981")
 		)
 		(pin "8"
-			(uuid "bf385c91-2e66-4a38-95bd-4b9f0f6862f6")
+			(uuid "bf385c91-2e66-4a38-95bd-4b9f0f6862f9")
 		)
 		(pin "1"
-			(uuid "a6fa93a2-1a32-42b0-b935-536ff731bcb3")
+			(uuid "a6fa93a2-1a32-42b0-b935-536ff731bcb6")
 		)
 		(pin "10"
-			(uuid "a69fee3f-4ab1-4052-b8bd-d60cb071cd6f")
+			(uuid "a69fee3f-4ab1-4052-b8bd-d60cb071cd72")
 		)
 		(pin "9"
-			(uuid "19e0c16d-6740-488b-9a64-c7342bf177c2")
+			(uuid "19e0c16d-6740-488b-9a64-c7342bf177c5")
 		)
 		(pin "14"
-			(uuid "05bfe2a9-6c62-47a3-a0e0-ed79b6d79b55")
+			(uuid "05bfe2a9-6c62-47a3-a0e0-ed79b6d79b58")
 		)
 		(pin "13"
-			(uuid "c96e6311-d0ae-41e0-83d3-ce7341de4994")
+			(uuid "c96e6311-d0ae-41e0-83d3-ce7341de4997")
 		)
 		(instances
 			(project ""
@@ -10365,46 +10553,46 @@
 			)
 		)
 		(pin "11"
-			(uuid "640cedbd-a34f-4284-a517-685fb8352883")
+			(uuid "640cedbd-a34f-4284-a517-685fb8352887")
 		)
 		(pin "12"
-			(uuid "53b99cd7-9b31-4077-9b97-941b727090c3")
+			(uuid "53b99cd7-9b31-4077-9b97-941b727090c7")
 		)
 		(pin "2"
-			(uuid "e02acdae-8ced-4f40-8c0a-a17029dcff8f")
+			(uuid "e02acdae-8ced-4f40-8c0a-a17029dcff93")
 		)
 		(pin "5"
-			(uuid "cdea779a-2ffb-4692-9480-4ec67b128f6c")
+			(uuid "cdea779a-2ffb-4692-9480-4ec67b128f70")
 		)
 		(pin "4"
-			(uuid "221ec4c7-3880-4c34-b700-7ff0de947c67")
+			(uuid "221ec4c7-3880-4c34-b700-7ff0de947c6b")
 		)
 		(pin "6"
-			(uuid "89120486-58d0-49e3-b7b0-16c1588e4373")
+			(uuid "89120486-58d0-49e3-b7b0-16c1588e4377")
 		)
 		(pin "3"
-			(uuid "046844a9-718a-4133-bf17-066c0650028a")
+			(uuid "046844a9-718a-4133-bf17-066c0650028e")
 		)
 		(pin "7"
-			(uuid "0c086b72-a33e-482f-8c06-40f702e1097e")
+			(uuid "0c086b72-a33e-482f-8c06-40f702e10982")
 		)
 		(pin "8"
-			(uuid "bf385c91-2e66-4a38-95bd-4b9f0f6862f6")
+			(uuid "bf385c91-2e66-4a38-95bd-4b9f0f6862fa")
 		)
 		(pin "1"
-			(uuid "a6fa93a2-1a32-42b0-b935-536ff731bcb3")
+			(uuid "a6fa93a2-1a32-42b0-b935-536ff731bcb7")
 		)
 		(pin "10"
-			(uuid "a69fee3f-4ab1-4052-b8bd-d60cb071cd6f")
+			(uuid "a69fee3f-4ab1-4052-b8bd-d60cb071cd73")
 		)
 		(pin "9"
-			(uuid "19e0c16d-6740-488b-9a64-c7342bf177c2")
+			(uuid "19e0c16d-6740-488b-9a64-c7342bf177c6")
 		)
 		(pin "14"
-			(uuid "05bfe2a9-6c62-47a3-a0e0-ed79b6d79b55")
+			(uuid "05bfe2a9-6c62-47a3-a0e0-ed79b6d79b59")
 		)
 		(pin "13"
-			(uuid "c96e6311-d0ae-41e0-83d3-ce7341de4994")
+			(uuid "c96e6311-d0ae-41e0-83d3-ce7341de4998")
 		)
 		(instances
 			(project ""
@@ -10678,28 +10866,28 @@
 			)
 		)
 		(pin "3"
-			(uuid "f53be639-cd4e-4a40-92ee-0f8745a80901")
+			(uuid "f53be639-cd4e-4a40-92ee-0f8745a80903")
 		)
 		(pin "2"
-			(uuid "fec44c82-3205-4cee-8276-336ac6655e88")
+			(uuid "fec44c82-3205-4cee-8276-336ac6655e8a")
 		)
 		(pin "4"
-			(uuid "7df87ca9-769d-4fbd-9190-961ab9444c39")
+			(uuid "7df87ca9-769d-4fbd-9190-961ab9444c3b")
 		)
 		(pin "8"
-			(uuid "31017728-c2d7-4c54-a529-268d96333280")
+			(uuid "31017728-c2d7-4c54-a529-268d96333282")
 		)
 		(pin "6"
-			(uuid "240d19c8-5eca-450d-9b17-56fac6efb262")
+			(uuid "240d19c8-5eca-450d-9b17-56fac6efb264")
 		)
 		(pin "7"
-			(uuid "8b1fde24-c8e3-42cc-aa76-4bf43f65ca07")
+			(uuid "8b1fde24-c8e3-42cc-aa76-4bf43f65ca09")
 		)
 		(pin "1"
-			(uuid "8aae7d81-8aeb-4571-877a-8baaf7e57e3f")
+			(uuid "8aae7d81-8aeb-4571-877a-8baaf7e57e41")
 		)
 		(pin "5"
-			(uuid "aea40a5e-09d6-42ac-83c6-569469fd294e")
+			(uuid "aea40a5e-09d6-42ac-83c6-569469fd2950")
 		)
 		(instances
 			(project ""

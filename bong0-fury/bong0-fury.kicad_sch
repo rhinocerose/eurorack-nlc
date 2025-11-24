@@ -12,7 +12,7 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 93.98 144.78)
+		(at 114.3 68.58)
 		(size 38.1 17.78)
 		(fields_autoplaced yes)
 		(stroke
@@ -24,7 +24,7 @@
 		)
 		(uuid "44f2332f-c61b-4fac-9a46-333712db1109")
 		(property "Sheetname" "Block 3"
-			(at 93.98 144.0684 0)
+			(at 114.3 67.8684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Sheetfile" "block3.kicad_sch"
-			(at 93.98 163.1446 0)
+			(at 114.3 86.9446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50,7 +50,7 @@
 		)
 	)
 	(sheet
-		(at 57.15 143.51)
+		(at 77.47 67.31)
 		(size 33.02 19.05)
 		(fields_autoplaced yes)
 		(stroke
@@ -62,7 +62,7 @@
 		)
 		(uuid "4e0b41a3-86c1-4208-9d4d-f11b07678021")
 		(property "Sheetname" "Power"
-			(at 57.15 142.7984 0)
+			(at 77.47 66.5984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71,7 +71,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 57.15 163.1446 0)
+			(at 77.47 86.9446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88,7 +88,7 @@
 		)
 	)
 	(sheet
-		(at 96.52 179.07)
+		(at 116.84 102.87)
 		(size 38.1 17.78)
 		(fields_autoplaced yes)
 		(stroke
@@ -100,7 +100,7 @@
 		)
 		(uuid "c5e957e8-8aeb-4654-ba2e-0f4ce9e75baf")
 		(property "Sheetname" "Block 2"
-			(at 96.52 178.3584 0)
+			(at 116.84 102.1584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -109,7 +109,7 @@
 			)
 		)
 		(property "Sheetfile" "block2.kicad_sch"
-			(at 96.52 197.4346 0)
+			(at 116.84 121.2346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -126,7 +126,7 @@
 		)
 	)
 	(sheet
-		(at 49.53 179.07)
+		(at 69.85 102.87)
 		(size 38.1 17.78)
 		(fields_autoplaced yes)
 		(stroke
@@ -138,7 +138,7 @@
 		)
 		(uuid "e4cc14be-bf54-4ff0-9d4f-5f74f975d2d7")
 		(property "Sheetname" "Block 1"
-			(at 49.53 178.3584 0)
+			(at 69.85 102.1584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -147,7 +147,7 @@
 			)
 		)
 		(property "Sheetfile" "block1.kicad_sch"
-			(at 49.53 197.4346 0)
+			(at 69.85 121.2346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
